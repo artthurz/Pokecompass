@@ -39,7 +39,6 @@ const Details = ({ route }) => {
       const data = await FetchPokemonDetails(route.params.url);
       setDetails(data);
       setHeaderColor(data.color);
-      console.log(data);
     };
     FetchDetails();
   }, []);

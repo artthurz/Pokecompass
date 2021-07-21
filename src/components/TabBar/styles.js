@@ -13,7 +13,7 @@ export const TabButton = styled.TouchableOpacity`
   width: 50%;
   color: ${props => props.tabSelected ? "#FE5200" : "#494461"};;
   border-top-width: 0;
-  border-bottom-width: ${props => props.tabSelected ? 3 : 0};
+  border-bottom-width: ${props => props.tabSelected ? "3px" : 0};
   border-bottom-color: ${props => props.tabSelected ? "#FE5200" : "#494461"};
 `;
 
